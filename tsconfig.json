@@ -18,7 +18,10 @@
     "types": ["vite/client", "@types/node", "unplugin-vue2-script-setup/types"]
   },
   "vueCompilerOptions": {
-    "experimentalCompatMode": 2
+    "experimentalCompatMode": 2,
+    "experimentalTemplateCompilerOptions": {
+      "compatConfig": { "MODE": 2 }
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
